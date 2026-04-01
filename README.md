@@ -1,1 +1,8 @@
 # N1_progamacao_web
+
+Atividade em Grupo
+- integrantes:
+  * PAULO JOSÉ HIGA FREITAS
+  * JOÃO VITOR ALVES BITTENCOURT
+  * CELSO TEIXEIRA DE OLIVEIRA JÚNIOR
+  * LARA RODRIGUES HOLANDA LEAL
