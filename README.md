@@ -90,4 +90,4 @@ As páginas abaixo possuem as cinco partes pedidas no enunciado: listar todos, c
 
 ## Roteiro rápido
 
-Consulte `ENTREGA.md` para uma sequência simples de apresentação.
+Consulte `ENTREGA.md` para mais informação.
