@@ -32,6 +32,5 @@ fakenews_grupo_99/index.html
 - Navegação por links entre as páginas.
 - CRUDs com listar, criar, exibir, atualizar e apagar.
 
-## Observação sobre Figma
-
-O enunciado também pede telas no Figma Design com link público do protótipo. Esse link deve ser criado/enviado separadamente no Figma, caso o professor cobre junto com os arquivos HTML/CSS.
+## Sobre Figma
+em andamento...
