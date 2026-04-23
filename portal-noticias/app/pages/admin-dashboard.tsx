@@ -1,16 +1,13 @@
 import { Link } from "react-router";
 
-import { PortalShell, SectionTitle, SidebarLayout, StatsGrid } from "../components/portal-shell";
-import { paths } from "../lib/paths";
+import { PortalShell } from "~/components/layout/portal-shell";
+import { SectionTitle } from "~/components/layout/section-title";
+import { SidebarLayout } from "~/components/layout/sidebar-layout";
+import { StatsGrid } from "~/components/layout/stats-grid";
+import { adminSidebar } from "~/lib/admin-nav";
+import { paths } from "~/lib/paths";
 
-const adminSidebar = [
-  { label: "Dashboard", to: paths.adminDashboard, end: true },
-  { label: "UFs", to: paths.adminUfs, end: true },
-  { label: "Cidades", to: paths.adminCities, end: true },
-  { label: "Tags", to: paths.adminTags, end: true },
-];
-
-export default function AdminDashboard() {
+export default function AdminDashboardPage() {
   return (
     <PortalShell>
       <SidebarLayout items={adminSidebar}>

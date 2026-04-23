@@ -1,9 +1,9 @@
 import { Link } from "react-router";
 
-import { PortalShell } from "../components/portal-shell";
-import { paths } from "../lib/paths";
+import { PortalShell } from "~/components/layout/portal-shell";
+import { paths } from "~/lib/paths";
 
-export default function PublicArticle() {
+export default function PublicArticlePage() {
   return (
     <PortalShell>
       <div className="container">

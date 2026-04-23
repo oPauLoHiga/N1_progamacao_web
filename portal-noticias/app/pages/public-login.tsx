@@ -1,10 +1,10 @@
 import type { FormEvent } from "react";
 import { Link, useNavigate } from "react-router";
 
-import { PortalShell } from "../components/portal-shell";
-import { paths } from "../lib/paths";
+import { PortalShell } from "~/components/layout/portal-shell";
+import { paths } from "~/lib/paths";
 
-export default function PublicLogin() {
+export default function PublicLoginPage() {
   const navigate = useNavigate();
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {

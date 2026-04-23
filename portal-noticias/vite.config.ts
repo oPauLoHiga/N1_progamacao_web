@@ -1,6 +1,13 @@
-import { reactRouter } from "@react-router/dev/vite";
+import path from "node:path";
+
+import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [reactRouter()],
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "~": path.resolve(__dirname, "app"),
+    },
+  },
 });

@@ -1,15 +1,12 @@
-import { PortalShell, SidebarLayout, StatsGrid } from "../components/portal-shell";
-import { paths } from "../lib/paths";
+import { PortalShell } from "~/components/layout/portal-shell";
+import { SidebarLayout } from "~/components/layout/sidebar-layout";
+import { StatsGrid } from "~/components/layout/stats-grid";
+import { readerSidebarProfile } from "~/lib/reader-nav";
 
-const readerSidebar = [
-  { label: "Meu feed", to: paths.readerFeed, end: true },
-  { label: "Meu perfil", to: paths.readerProfile, end: true },
-];
-
-export default function ReaderProfile() {
+export default function ReaderProfilePage() {
   return (
     <PortalShell>
-      <SidebarLayout items={readerSidebar}>
+      <SidebarLayout items={readerSidebarProfile}>
         <section className="panel">
           <h1>Perfil do leitor</h1>
           <p className="note">Informacoes basicas e preferencias de leitura.</p>
