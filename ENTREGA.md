@@ -1,5 +1,11 @@
 # Roteiro de entrega HTML/CSS
 
+## Portal Noticias
+
+para rodar a atividade 04 entre no diretorio portal-noticias e siga o readme de la!
+
+---
+
 ## Abrir o projeto
 
 No VS Code, use o Live Server em:
