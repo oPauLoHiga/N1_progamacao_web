@@ -1,5 +1,11 @@
 # N1 Extensão - Programação para Web
 
+## Portal Noticias
+
+para rodar a atividade 04 entre no diretorio portal-noticias e siga o readme de la!
+
+---
+
 Atividade em grupo da disciplina de Programação Web.
 
 ## Integrantes
